@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.octom4design.expeco.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ExpEcoMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

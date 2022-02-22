@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WPW",
+      "WDW",
+      "WPW"
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:logs"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "expeco:exchanger",
+      "count": 1
+    }
+  }

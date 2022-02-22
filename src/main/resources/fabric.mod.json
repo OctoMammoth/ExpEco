@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "expeco",
+  "version": "${version}",
+
+  "name": "ExpEco",
+  "description": "Adds economy and some features",
+  "authors": [
+    "OctoM4Design"
+  ],
+  "contact": {
+    "homepage": "https://github.com/OctoM4Design/ExpEco",
+    "sources": "https://github.com/OctoM4Design/ExpEco"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/expeco/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.octom4design.expeco.ExpEco"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
